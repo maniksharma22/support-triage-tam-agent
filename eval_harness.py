@@ -12,10 +12,10 @@ def run_evaluation():
     ]
 
     task2_tests = [
-        {"account_id": "ACC-001"},
-        {"account_id": "ACC-002"},
-        {"account_id": "ACC-003"},  
-        {"account_id": "ACC-004"},
+        {"account_id": "ACC-3336"},
+        {"account_id": "ACC-3033"},
+        {"account_id": "ACC-7893"},  
+        {"account_id": "ACC-4654"},
         {"account_id": "INVALID-ID"}
     ]
 

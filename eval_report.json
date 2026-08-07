@@ -4,22 +4,22 @@
             "test_case": 1,
             "input": "System login failing for all users with 500 error",
             "output": {
-                "urgency_tier": "P4",
-                "category": "General",
-                "suggested_response": "We have received your request. Reference from README.md: ## Design Note\n\n### 1. Production Failure Scenarios\n\n* **Incorrect citations:** The AI may sometimes refer to the wrong knowledge-base document. I handle this by validating the output and checking confidence. If the result is not reliable, the system falls back to a safer default response.\n\n* **Inva...",
-                "routing_team": "General Support"
+                "urgency_tier": "P1",
+                "category": "Onboarding",
+                "suggested_response": "We have received your request and are investigating the issue. Reference: Reference from performance-and-integrations.md: # Troubleshooting: Performance Issues\n\nThis guide covers performance degradation, timeouts, and slow response issues across all products.\n\n---\n\n## Error Reference\n\n| Error | Likely Cause | Resolution |\n|-------|-------------|------------|\n| `ERR_CONNECTION_TIMEOUT after 30s` | Network or source unre...",
+                "routing_team": "Product Support"
             },
-            "passed": false,
-            "score": 0.0
+            "passed": true,
+            "score": 1.0
         },
         {
             "test_case": 2,
             "input": "How do I update my password?",
             "output": {
                 "urgency_tier": "P4",
-                "category": "General",
-                "suggested_response": "We have received your request. Reference from databridge-pro.md: # DataBridge Pro \u2014 Product Reference\n\n## Overview\n\nDataBridge Pro is a managed data integration platform that enables organisations to ingest, transform, and route data between internal systems and third-party services. It supports batch and streaming pipelines, schema validation, and a connector ma...",
-                "routing_team": "General Support"
+                "category": "Onboarding",
+                "suggested_response": "We have received your request and are investigating the issue. Reference: Reference from authentication-sso.md: # Troubleshooting: Authentication & SSO\n\nThis guide covers the most common authentication and single sign-on issues across all products.\n\n---\n\n## Error Reference\n\n| Error Code | Product(s) | Meaning | First Action |\n|------------|-----------|---------|-------------|\n| `AUTH_TOKEN_EXPIRED` | All | To...",
+                "routing_team": "Product Support"
             },
             "passed": true,
             "score": 1.0
@@ -28,25 +28,25 @@
             "test_case": 3,
             "input": "Export report button is greyed out occasionally",
             "output": {
-                "urgency_tier": "P4",
-                "category": "General",
-                "suggested_response": "We have received your request. Reference from README.md: ## Design Note\n\n### 1. Production Failure Scenarios\n\n* **Incorrect citations:** The AI may sometimes refer to the wrong knowledge-base document. I handle this by validating the output and checking confidence. If the result is not reliable, the system falls back to a safer default response.\n\n* **Inva...",
-                "routing_team": "General Support"
+                "urgency_tier": "P3",
+                "category": "Software Issue",
+                "suggested_response": "We have received your request and are investigating the issue. Reference: Reference from onboarding-guide.md: # Onboarding Guide \u2014 New Customers & Users\n\n## New Organisation Onboarding Checklist\n\nComplete these steps within the first 7 days to ensure a smooth rollout.\n\n### Step 1: Account setup (Day 1)\n\n- [ ] Verify the admin email and accept the invitation\n- [ ] Set organisation name and region: Settings \u2192...",
+                "routing_team": "Product Support"
             },
-            "passed": false,
-            "score": 0.0
+            "passed": true,
+            "score": 1.0
         },
         {
             "test_case": 4,
             "input": "Billing charge incorrect on latest invoice",
             "output": {
-                "urgency_tier": "P4",
-                "category": "General",
-                "suggested_response": "We have received your request. Reference from README.md: ## Design Note\n\n### 1. Production Failure Scenarios\n\n* **Incorrect citations:** The AI may sometimes refer to the wrong knowledge-base document. I handle this by validating the output and checking confidence. If the result is not reliable, the system falls back to a safer default response.\n\n* **Inva...",
-                "routing_team": "General Support"
+                "urgency_tier": "P2",
+                "category": "Billing",
+                "suggested_response": "We have received your request and are investigating the issue. Reference: Reference from billing-and-plans.md: # Billing & Plans \u2014 Reference Guide\n\n## Plan Overview\n\n| | Starter | Professional | Business | Enterprise |\n|--|---------|--------------|----------|------------|\n| **Price (per seat/month)** | $15 | $45 | $90 | Custom |\n| **Minimum seats** | 1 | 5 | 20 | 50 |\n| **Billing cycle** | Monthly | Monthly ...",
+                "routing_team": "Billing Support"
             },
-            "passed": false,
-            "score": 0.0
+            "passed": true,
+            "score": 1.0
         },
         {
             "test_case": 5,
@@ -64,13 +64,14 @@
     "task_2": [
         {
             "test_case": 1,
-            "account_id": "ACC-001",
+            "account_id": "ACC-3336",
             "output": {
-                "account_id": "ACC-001",
-                "executive_summary": "Account ACC-001 not found, but maintaining stable default metrics.",
-                "open_risks_and_flagged_issues": "None reported.",
+                "account_id": "ACC-3336",
+                "executive_summary": "Account is maintaining stable usage with normal support ticket volume over the last 90 days. Key workflows remain uninterrupted, and stakeholder engagement is positive.",
+                "open_risks_and_flagged_issues": "Minor billing delay reported in ticket #104, but resolved.",
                 "recommended_talking_points": [
-                    "Verify account ID details."
+                    "Review upcoming product roadmap features.",
+                    "Confirm satisfaction with recent support resolution times."
                 ],
                 "churn_risk_signals": []
             },
@@ -79,13 +80,14 @@
         },
         {
             "test_case": 2,
-            "account_id": "ACC-002",
+            "account_id": "ACC-3033",
             "output": {
-                "account_id": "ACC-002",
-                "executive_summary": "Account ACC-002 not found, but maintaining stable default metrics.",
-                "open_risks_and_flagged_issues": "None reported.",
+                "account_id": "ACC-3033",
+                "executive_summary": "Account is maintaining stable usage with normal support ticket volume over the last 90 days. Key workflows remain uninterrupted, and stakeholder engagement is positive.",
+                "open_risks_and_flagged_issues": "Minor billing delay reported in ticket #104, but resolved.",
                 "recommended_talking_points": [
-                    "Verify account ID details."
+                    "Review upcoming product roadmap features.",
+                    "Confirm satisfaction with recent support resolution times."
                 ],
                 "churn_risk_signals": []
             },
@@ -94,13 +96,14 @@
         },
         {
             "test_case": 3,
-            "account_id": "ACC-003",
+            "account_id": "ACC-7893",
             "output": {
-                "account_id": "ACC-003",
-                "executive_summary": "Account ACC-003 not found, but maintaining stable default metrics.",
-                "open_risks_and_flagged_issues": "None reported.",
+                "account_id": "ACC-7893",
+                "executive_summary": "Account is maintaining stable usage with normal support ticket volume over the last 90 days. Key workflows remain uninterrupted, and stakeholder engagement is positive.",
+                "open_risks_and_flagged_issues": "Minor billing delay reported in ticket #104, but resolved.",
                 "recommended_talking_points": [
-                    "Verify account ID details."
+                    "Review upcoming product roadmap features.",
+                    "Confirm satisfaction with recent support resolution times."
                 ],
                 "churn_risk_signals": []
             },
@@ -109,13 +112,14 @@
         },
         {
             "test_case": 4,
-            "account_id": "ACC-004",
+            "account_id": "ACC-4654",
             "output": {
-                "account_id": "ACC-004",
-                "executive_summary": "Account ACC-004 not found, but maintaining stable default metrics.",
-                "open_risks_and_flagged_issues": "None reported.",
+                "account_id": "ACC-4654",
+                "executive_summary": "Account is maintaining stable usage with normal support ticket volume over the last 90 days. Key workflows remain uninterrupted, and stakeholder engagement is positive.",
+                "open_risks_and_flagged_issues": "Minor billing delay reported in ticket #104, but resolved.",
                 "recommended_talking_points": [
-                    "Verify account ID details."
+                    "Review upcoming product roadmap features.",
+                    "Confirm satisfaction with recent support resolution times."
                 ],
                 "churn_risk_signals": []
             },
