@@ -1,3 +1,16 @@
+# AI-Powered Customer Support & TAM Assistant
+
+An internal tooling AI solution designed to assist Tier-1/Tier-2 Technical Support engineers with intelligent ticket triage and Technical Account Managers (TAMs) with automated account health briefs.
+
+## Setup & Installation
+1. Clone the repository and navigate to the project directory.
+2. Install dependencies: `pip install -r requirements.txt`
+3. Set up environment variables by copying `.env.example` to `.env` and adding your API credentials.
+
+## Running the Evaluation Harness
+Execute the automated evaluation test cases and generate the `eval_report.json` results file by running:
+`python eval_harness.py`
+
 ## Design Note
 
 ### 1. Production Failure Scenarios
