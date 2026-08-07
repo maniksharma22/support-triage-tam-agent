@@ -1,0 +1,141 @@
+{
+    "task_1": [
+        {
+            "test_case": 1,
+            "input": "System login failing for all users with 500 error",
+            "output": {
+                "urgency_tier": "P4",
+                "category": "General",
+                "suggested_response": "We have received your request. Reference from README.md: ## Design Note\n\n### 1. Production Failure Scenarios\n\n* **Incorrect citations:** The AI may sometimes refer to the wrong knowledge-base document. I handle this by validating the output and checking confidence. If the result is not reliable, the system falls back to a safer default response.\n\n* **Inva...",
+                "routing_team": "General Support"
+            },
+            "passed": false,
+            "score": 0.0
+        },
+        {
+            "test_case": 2,
+            "input": "How do I update my password?",
+            "output": {
+                "urgency_tier": "P4",
+                "category": "General",
+                "suggested_response": "We have received your request. Reference from databridge-pro.md: # DataBridge Pro \u2014 Product Reference\n\n## Overview\n\nDataBridge Pro is a managed data integration platform that enables organisations to ingest, transform, and route data between internal systems and third-party services. It supports batch and streaming pipelines, schema validation, and a connector ma...",
+                "routing_team": "General Support"
+            },
+            "passed": true,
+            "score": 1.0
+        },
+        {
+            "test_case": 3,
+            "input": "Export report button is greyed out occasionally",
+            "output": {
+                "urgency_tier": "P4",
+                "category": "General",
+                "suggested_response": "We have received your request. Reference from README.md: ## Design Note\n\n### 1. Production Failure Scenarios\n\n* **Incorrect citations:** The AI may sometimes refer to the wrong knowledge-base document. I handle this by validating the output and checking confidence. If the result is not reliable, the system falls back to a safer default response.\n\n* **Inva...",
+                "routing_team": "General Support"
+            },
+            "passed": false,
+            "score": 0.0
+        },
+        {
+            "test_case": 4,
+            "input": "Billing charge incorrect on latest invoice",
+            "output": {
+                "urgency_tier": "P4",
+                "category": "General",
+                "suggested_response": "We have received your request. Reference from README.md: ## Design Note\n\n### 1. Production Failure Scenarios\n\n* **Incorrect citations:** The AI may sometimes refer to the wrong knowledge-base document. I handle this by validating the output and checking confidence. If the result is not reliable, the system falls back to a safer default response.\n\n* **Inva...",
+                "routing_team": "General Support"
+            },
+            "passed": false,
+            "score": 0.0
+        },
+        {
+            "test_case": 5,
+            "input": "",
+            "output": {
+                "urgency_tier": "P4",
+                "category": "General",
+                "suggested_response": "Please provide more details regarding your request.",
+                "routing_team": "General Support"
+            },
+            "passed": true,
+            "score": 1.0
+        }
+    ],
+    "task_2": [
+        {
+            "test_case": 1,
+            "account_id": "ACC-001",
+            "output": {
+                "account_id": "ACC-001",
+                "executive_summary": "Account ACC-001 not found, but maintaining stable default metrics.",
+                "open_risks_and_flagged_issues": "None reported.",
+                "recommended_talking_points": [
+                    "Verify account ID details."
+                ],
+                "churn_risk_signals": []
+            },
+            "passed": true,
+            "score": 1.0
+        },
+        {
+            "test_case": 2,
+            "account_id": "ACC-002",
+            "output": {
+                "account_id": "ACC-002",
+                "executive_summary": "Account ACC-002 not found, but maintaining stable default metrics.",
+                "open_risks_and_flagged_issues": "None reported.",
+                "recommended_talking_points": [
+                    "Verify account ID details."
+                ],
+                "churn_risk_signals": []
+            },
+            "passed": true,
+            "score": 1.0
+        },
+        {
+            "test_case": 3,
+            "account_id": "ACC-003",
+            "output": {
+                "account_id": "ACC-003",
+                "executive_summary": "Account ACC-003 not found, but maintaining stable default metrics.",
+                "open_risks_and_flagged_issues": "None reported.",
+                "recommended_talking_points": [
+                    "Verify account ID details."
+                ],
+                "churn_risk_signals": []
+            },
+            "passed": true,
+            "score": 1.0
+        },
+        {
+            "test_case": 4,
+            "account_id": "ACC-004",
+            "output": {
+                "account_id": "ACC-004",
+                "executive_summary": "Account ACC-004 not found, but maintaining stable default metrics.",
+                "open_risks_and_flagged_issues": "None reported.",
+                "recommended_talking_points": [
+                    "Verify account ID details."
+                ],
+                "churn_risk_signals": []
+            },
+            "passed": true,
+            "score": 1.0
+        },
+        {
+            "test_case": 5,
+            "account_id": "INVALID-ID",
+            "output": {
+                "account_id": "INVALID-ID",
+                "executive_summary": "Account INVALID-ID not found, but maintaining stable default metrics.",
+                "open_risks_and_flagged_issues": "None reported.",
+                "recommended_talking_points": [
+                    "Verify account ID details."
+                ],
+                "churn_risk_signals": []
+            },
+            "passed": true,
+            "score": 1.0
+        }
+    ]
+}
